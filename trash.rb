@@ -1,8 +1,9 @@
 
-test = "0"
+test = [1,2,3]
 test1= 0
 
-puts test.class
-puts test1.class
-puts test.to_i.class
+puts test.inspect
+test.unshift(3)
+test.pop
+puts test.inspect
 
